@@ -1,0 +1,14 @@
+ultralytics>=8.0.0
+opencv-python
+pillow
+pandas
+matplotlib
+numpy
+requests
+SQLAlchemy
+psycopg2-binary
+python-dotenv
+
+# NOTE: Install torch separately following https://pytorch.org/ to get the correct CUDA build for your GPU.
+# On Windows, choose the appropriate command from the PyTorch site. Example for CUDA 11.8 (change if needed):
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
